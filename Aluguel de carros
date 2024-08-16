@@ -1,0 +1,8 @@
+km_percorrido=int(input("Quantos km você percorreu?: "))
+dias_alugados=int(input("Quantos dias você alugou o carro?: "))
+pagamento_aluga= dias_alugados * 60
+print("Você vai pagar {}".format(pagamento_aluga))
+km_final=km_percorrido * 0.15
+print("Você vai pagar por quilometro rodado {}".format(km_final))
+total=pagamento_aluga+km_final
+print("O total a se pagar é de: {}".format(total))
